@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "http-server -p 8080 -d",
     "test": "cypress open"
@@ -13,6 +14,6 @@
     "http-server": "^14.1.1"
   },
   "devDependencies": {
-    "cypress": "^13.8.1"
+    "cypress": "^13.16.0"
   }
 }
